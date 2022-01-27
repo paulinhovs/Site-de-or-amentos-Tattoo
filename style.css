@@ -488,6 +488,23 @@ label:hover {
         margin-bottom: 20px;
     }
 
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+
+    .portifolio-space {
+        width: 70%;
+        margin-top: 350px;
+        margin-left: 170px;
+        height: 700px;
+    }
+
+
+    .form-space {
+        margin-left: 350px;
+        margin-bottom: 20px;
+    }
+
 
 }
 
