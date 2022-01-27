@@ -52,6 +52,7 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -72,6 +73,12 @@
           <div class="carousel-item">
             <img class="d-block w-100" id="img-carrossel" src="images/cb9332f4-b95b-4946-a528-1852d36b6ff9.jpg" alt="Sexto Slide">
           </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" id="img-carrossel" src="images/WhatsApp Image 2022-01-27 at 12.15.08.jpeg" alt="Sexto Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" id="img-carrossel" src="images/WhatsApp Image 2022-01-27 at 13.42.03.jpeg" alt="Sexto Slide">
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -86,17 +93,20 @@
 </section>
 
 
-  <h1 id="interesse-text">Se interessou? <br> Faça seu orçamento</h1>
+  <h1 id="interesse-text">Se interessou? Faça seu orçamento</h1>
 
 
 <section class="form-space">
 
 <form method="POST" id="form" action="https://formsubmit.co/targinobabi@gmail.com" enctype="multipart/form-data">
+    <input type="text"  id="input-nome" placeholder="nome">
     <input id="input-email" type="email" name="email" placeholder="Seu email">
     <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_autoresponse" value="Obrigado pelo contato, recebi sua mensagem e logo responderei.">
     <input id="input-tel" type="tel" placeholder="Telefone">
+    <input type="text" placeholder="Centímetros" id="input-cm">
+    <input type="text" placeholder="Local do corpo" id="input-local">
     <textarea id="input-descreva" name="message" placeholder="Descreva sua idéia de tatuagem"></textarea>
     <label for="arquivo">Enviar arquivo</label>
     <input type="file" id="arquivo" name="attachment" accept="image/png, image/jpeg">

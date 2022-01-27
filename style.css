@@ -75,8 +75,9 @@ header {
     border: #c0426c 3px solid;
     border-radius: 10px;
     box-shadow: inset 0 0 10px 0 #c0426c, 0 0 10px 0 #c0426c;
-    text-shadow: 0 0 2px hsl(0 0% 100% / 0.3), 0 0 10px currentColor;
+    text-shadow: 0 0 2px hsl(0 0% 100% / 0.3), 0 0 5px currentColor;
     position: relative;
+    text-align: center;
 }
 
 #sobre-mim-text::before {
@@ -123,7 +124,12 @@ header {
 }
 
 #interesse-text {
-    
+    font-family: Osaka;
+    color: cadetblue;
+    font-size: 45px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .form-space {
@@ -160,7 +166,9 @@ label:hover {
 }
 
 #input-email, #input-tel,
-#input-descreva, #input-button {
+#input-descreva, #input-button,
+#input-nome, #input-cm,
+#input-local {
     padding: 5px 10px;
     width: 200px;
     background: black;
@@ -177,10 +185,17 @@ label:hover {
 
 #input-email:hover,
 #input-tel:hover,
-#input-descreva,
-#input-button {
+#input-descreva:hover,
+#input-button:hover,
+#input-nome:hover,
+#input-cm:hover,
+#input-local:hover {
     color: #333;
     background: white;
+}
+
+#input-button {
+    margin-bottom: 20px;
 }
 
 #text-form {
@@ -238,6 +253,16 @@ label:hover {
     margin-top: -5px;
 }
 
+#interesse-text {
+    margin-left: 10px;
+    margin-top: -200px;
+    
+}
+
+.form-space {
+    margin-left: 100px;
+}
+
 }
 
 @media (min-width:451px) and (max-width:550px) {
@@ -278,6 +303,16 @@ label:hover {
         max-height: 50px;
         margin-bottom: 20px;
         margin-top: -5px;
+    }
+
+    #interesse-text {
+        margin-left: 10px;
+        margin-top: -200px;
+        
+    }
+    
+    .form-space {
+        margin-left: 100px;
     }
 
 }
