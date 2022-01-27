@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Osaka;
+    src: url('fonts/osaka-re.ttf');
+}
+
+body {
+    background-image: url('images/Barbie\ Tattoo\ \(3\).png');
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+p {
+    font-family: Osaka;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    border: #c0426c 3px solid;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: Osaka;
+    color: white;
+    padding: 20px 10px;
+    width: 200px;
+    background: black;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px;
+    font-family: Osaka;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #f1b;
+    
+}
+
+a:hover {
+    color: #333;
+    background: white;
+}
+
