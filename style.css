@@ -17,7 +17,7 @@ header {
 
 #text-header {
     color: black;
-    font-family: Osaka;
+    font-family: Geo Sans;
     font-size: 50px;
     margin-top: 20px;
     margin-left: 450px;
@@ -45,7 +45,6 @@ header {
 .portifolio-space {
     width: 80%;
     height: 700px;
-    
     margin-left: 140px;
 }
 
@@ -57,6 +56,7 @@ header {
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
+    
 }
 
 .sobre-mim {
@@ -69,16 +69,17 @@ header {
 }
 
 #sobre-mim-text {
-    font-family: Osaka;
+    font-family: Geo Sans;
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 2px;
     padding: 10px 10px;
     border: black 3px solid;
     border-radius: 10px;
     position: relative;
     text-align: center;
-    text-shadow: #000 1px 1px 2px;
+    background-color: whitesmoke;
+    opacity: 90%;
 }
 
 
@@ -103,6 +104,11 @@ header {
     src: url('fonts/osaka-re.ttf');
 }
 
+@font-face {
+    font-family: Geo Sans;
+    src: url('fonts/GeosansLight.ttf');
+}
+
 #img-carrossel {
     max-height: 500px; 
     max-width: 500px; 
@@ -113,7 +119,7 @@ header {
 
 #interesse-text {
     font-family: Osaka;
-    color: cadetblue;
+    color: black;
     font-size: 45px;
     margin-left: 100px;
     margin-bottom: 20px;
@@ -198,11 +204,13 @@ label:hover {
 
 #text-header {
     color: black;
-    font-family: Osaka;
+    font-family: Geo Sans;
     font-size: 30px;
     margin-top: 45px;
     margin-left: 20px;
     margin-right: 10px;
+    background-color: white;
+    opacity: 90%;
 }
 
 #link-insta1 {
@@ -213,19 +221,20 @@ label:hover {
 
 .portifolio-space {
     width: 90%;
-    margin-top: 550px;
+    margin-top: 50px;
     margin-left: 20px;
     height: 700px;
-    margin-left: 20px;
+    margin-left: 20px; 
 }
 
 #port-text1 {
     font-family: Osaka;
     font-size: 20px;
-    color: cadetblue;
+    color: black;
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    text-shadow: #000 1px 1px 2px;
 }
 
 #img-carrossel {
@@ -236,15 +245,17 @@ label:hover {
 
 .sobre-mim {
     margin-left: 45px;
-    max-height: 50px;
-    margin-bottom: 50px;
+    height: auto;
+    
     margin-top: -5px;
+    background-color: white;
+    opacity: 90%;
 }
 
 #interesse-text {
     margin-left: 10px;
     margin-top: -200px;
-    
+    text-shadow: #000 1px 1px 2px;
 }
 
 .form-space {
@@ -260,7 +271,7 @@ label:hover {
         height: 50px;
         width: 250px;
         color: black;
-        font-family: Osaka;
+        font-family: Geo Sans;
         font-size: 25px;
         margin-top: 45px;
         margin-left: 80px;
@@ -322,7 +333,7 @@ label:hover {
 
     #text-header {
         color: black;
-        font-family: Osaka;
+        font-family: Geo Sans;
         font-size: 30px;
         margin-top: 45px;
         margin-left: 15px;
@@ -377,7 +388,7 @@ label:hover {
 
     #text-header {
         color: black;
-        font-family: Osaka;
+        font-family: Geo Sans;
         font-size: 30px;
         margin-top: 45px;
         margin-left: 15px;
@@ -430,7 +441,7 @@ label:hover {
 
     #text-header {
         color: black;
-        font-family: Osaka;
+        font-family: Geo Sans;
         font-size: 30px;
         margin-top: 45px;
         margin-left: 15px;
